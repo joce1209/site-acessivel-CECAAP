@@ -1,6 +1,6 @@
 body {
-    background-color: #121212;
-    color: #fff;
+    background-color: #1A1A1A;
+    color: #FFFFFF;
     font-family: Arial, sans-serif;
     font-size: 1.5rem;
     line-height: 1.8;
@@ -10,10 +10,10 @@ body {
 }
 
 header {
-    background-color: #004080;
+    background-color: #003366;
     color: #fff;
     padding: 20px;
-    border-bottom: 5px solid #003366;
+    border-bottom: 5px solid #002244;
 }
 
 h1 {
@@ -25,7 +25,7 @@ header img {
     width: 80%;
     max-width: 500px;
     height: auto;
-    border: 5px solid #004080;
+    border: 5px solid #003366;
     margin: 20px auto;
     display: block;
 }
@@ -41,7 +41,7 @@ img {
     width: 80%;
     max-width: 600px;
     height: auto;
-    border: 5px solid #004080;
+    border: 5px solid #003366;
     margin: 20px auto;
     display: block;
 }
@@ -65,25 +65,25 @@ img {
 }
 
 #aumentar-fonte {
-    background-color: #ff7f00;
+    background-color: #66CC66;
     color: white;
 }
 
 #aumentar-fonte:hover {
-    background-color: #e66a00;
+    background-color: #4CAF50;
 }
 
 #diminuir-fonte {
-    background-color: #d9534f;
+    background-color: #FF8C00;
     color: white;
 }
 
 #diminuir-fonte:hover {
-    background-color: #c9302c;
+    background-color: #E07B00;
 }
 
 :focus {
-    outline: 3px solid #004080;
+    outline: 3px solid #003366;
 }
 
 @media (max-width: 600px) {
