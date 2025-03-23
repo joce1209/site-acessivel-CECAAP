@@ -1,6 +1,6 @@
 body {
-    background-color: #121212; /* Preto suave */
-    color: #fff; /* Texto branco */
+    background-color: #121212;
+    color: #fff;
     font-family: Arial, sans-serif;
     font-size: 1.5rem;
     line-height: 1.8;
@@ -10,10 +10,10 @@ body {
 }
 
 header {
-    background-color: #daa520; /* Dourado elegante */
-    color: #000;
+    background-color: #004080;
+    color: #fff;
     padding: 20px;
-    border-bottom: 5px solid #b8860b;
+    border-bottom: 5px solid #003366;
 }
 
 h1 {
@@ -25,7 +25,7 @@ header img {
     width: 80%;
     max-width: 500px;
     height: auto;
-    border: 5px solid #daa520;
+    border: 5px solid #004080;
     margin: 20px auto;
     display: block;
 }
@@ -41,7 +41,7 @@ img {
     width: 80%;
     max-width: 600px;
     height: auto;
-    border: 5px solid #daa520;
+    border: 5px solid #004080;
     margin: 20px auto;
     display: block;
 }
@@ -54,7 +54,6 @@ img {
     gap: 10px;
 }
 
-
 .btn {
     font-size: 1.2rem;
     padding: 10px 15px;
@@ -66,12 +65,12 @@ img {
 }
 
 #aumentar-fonte {
-    background-color: #008000;
+    background-color: #ff7f00;
     color: white;
 }
 
 #aumentar-fonte:hover {
-    background-color: #006400;
+    background-color: #e66a00;
 }
 
 #diminuir-fonte {
@@ -84,7 +83,7 @@ img {
 }
 
 :focus {
-    outline: 3px solid #daa520;
+    outline: 3px solid #004080;
 }
 
 @media (max-width: 600px) {
